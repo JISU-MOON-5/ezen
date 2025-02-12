@@ -24,5 +24,13 @@ public class Human {
 	public String getAddress() {
 		return address;
 	}
+	public void setWeight(double weight) {
+		this.weight = weight;
+	}
+	public double getWeight() {
+		return weight;
+	}
+	
+	
 
 }
