@@ -97,7 +97,8 @@ meta data : 다른 데이터를 설명해주는 데이터
 column : 테이블에서의 각 열, 데이터 값 등
 
 ASC(Ascending) : 오름차순
-DESC(Descending) : 내림차순    //table 앞에 있으면 describe로 쓰임
+DESC(Descending) : 내림차순
+//table 앞에 있으면 describe로 쓰임 : 테이블의 각 열이 어떤 속성을 가지고 있는지?로 쓰임
 order by : 정렬
 
 
