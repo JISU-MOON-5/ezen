@@ -131,7 +131,7 @@ public class GameInfoCRUD {
 		//System.out.println("입력한 갯수 : " + result);
 		//result = deleteGameInfo(6);
 		//System.out.println("삭제한 갯수 : " + result);
-		result = updateGameInfo(5,"스도쿠","1000","지략","인생게임");
+		result = updateGameInfo(5,"스도쿠","1000","퍼즐","인생게임");
 		System.out.println("업데이트한 갯수 : " + result);
 		
 		List<Map<String,String>> games = getGames();
