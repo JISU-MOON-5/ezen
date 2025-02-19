@@ -113,9 +113,7 @@ public class FoodInfoCRUD {
 			sql += " SET FI_NAME= '" + fiName + "',";
 			sql += " FI_PRICE= " + fiPrice;
 			sql += " WHERE FI_NUM=" + fiNum;
-			// update FOOD_INFO
-			// set FI_NAME = '비빔밥',
-			// where FI_NUM = 30;
+			
 			return stmt.executeUpdate(sql);
 		} catch (SQLException e) {
 			e.printStackTrace();
