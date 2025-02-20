@@ -149,7 +149,7 @@ public class GameInfoCRUD {
 	
 	public static void main(String[] args) {
 		GameInfoCRUD cuic = new GameInfoCRUD();
-		List<Map<String,String>> gameInfo2 = cuic.selectGameInfos();
+		List<Map<String,String>> gameInfo2 = cuic.selectGameInfos2("1","스도쿠");
 		for(Map<String,String> gameInfo : gameInfo2) {
 			System.out.println(gameInfo);
 		}
